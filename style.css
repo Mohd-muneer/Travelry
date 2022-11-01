@@ -3,3 +3,34 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* nav  */
+.nav-container{
+    background: pink;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    font-size: x-large;
+    font-weight: bolder;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+
+}
+.nav-menu>ul>li{
+  
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
