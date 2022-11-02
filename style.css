@@ -9,17 +9,20 @@ body{
 
 /* nav  */
 .nav-container{
-    background: pink;
+    background:gray;
+    width: 100%;
+    position: fixed;
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .nav-logo{
     font-size: x-large;
     font-weight: bolder;
     align-items: center;
+    color:rgb(255, 255, 255);
 }
 .nav-menu{
     display: flex;
@@ -30,7 +33,15 @@ body{
 }
 a{
     text-decoration: none;
+    color:rgb(255, 255, 255);
 }
 li{
     list-style-type: none;
+}
+.ul-items{
+    display: flex;
+
+}
+.ul-items>li{
+    padding: 20px;
 }
