@@ -17,7 +17,7 @@ body{
 .navbar{
     background:#647E68 ;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     height: 70px;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ a::after{
  width:0;
  left: 0;
  bottom: -15px;
- transition: 0.3s;
+ transition: 0.9s;
 }
 a:hover{
     color: white;
@@ -67,6 +67,23 @@ a:hover::after{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fa:hover{
+    color: white;
+}
+
+
+/* select */
+
+.select{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    
 }
 
 
