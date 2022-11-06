@@ -1,6 +1,6 @@
 /* #182747 */
-/* #647E68 */
-/* #D8D8D8 */
+/* #647E68 navbar*/
+/* #D8D8D8 BG */
 
 
 *{
@@ -67,10 +67,7 @@ a:hover::after{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.fa:hover{
-    color: white;
-}
+} 
 
 
 /* select */
@@ -82,8 +79,69 @@ a:hover::after{
     margin-top: 90px;
     height: 100px;
     width: 100%;
-    border: 2px solid black;
     
+}
+.select-inside{
+    display: flex; 
+    border: 2px solid #a1a1a1;
+    height: 100%;
+    align-items: center;
+    background-color: rgb(110, 162, 5);
+    /* #9cb5eb  */
+    border-radius: 10px;
+}
+.select-places{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    border-right: 0.5px solid black;
+
+}
+.select-days{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    border-right: 0.5px solid black;
+}
+.select-date{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    border-right: 0.5px solid black;
+}
+select{
+    background: none;
+    border:0;
+    font-weight: bold;
+     
+    
+
+}
+label{
+    font-weight: bold;
+    padding:5px;
+     
+}
+option{
+    padding: 10px;
+    background-color: rgb(110, 162, 5);
+    padding: 3px 8px;
+    
+
+}
+.search-button{
+    padding: 30px;
+}
+.search-button>button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color:#647E68;
+    font-weight: bold;
+    font-size: 15px;
+}
+.fa-search{
+    padding-right: 6px;
 }
 
 
