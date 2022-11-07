@@ -15,10 +15,10 @@ body{
 
 /* nav  */
 .navbar{
-    background:#647E68 ;
+    background:#647E68;
     width: 100%;
     /* position: fixed; */
-    height: 70px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -26,13 +26,14 @@ body{
 .nav-logo{
     display: flex;
     align-items: center;
+    padding-left:50px;
 }
 .nav-list-menu>ul{
     display:flex;
     justify-content: space-between;
 }
 .nav-list-menu{
-    padding-right: 700px;
+    padding-right: 1000px;
 }
 li{
     list-style: none;
@@ -41,6 +42,7 @@ li{
 a{
     text-decoration: none;
     color: black;
+    font-size: larger;
     font-weight: bold;
     position: relative; 
     letter-spacing: 0.6px;
@@ -89,6 +91,7 @@ a:hover::after{
     background-color: rgb(110, 162, 5);
     /* #9cb5eb  */
     border-radius: 10px;
+    box-shadow: 0px 0px 10px   rgb(80, 80, 80);
 }
 .select-places{
     display: flex;
@@ -140,8 +143,110 @@ option{
 .fa-search{
     padding-right: 6px;
 }
+select:hover{
+    text-shadow:0 0.2px 0.5px black;
+}
+
+/* cards-container */
+
+.cards-container{
+    display: flex;
+    margin-top: 60px;
+    margin-left:320px; margin-right:320px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    height: auto;
+    flex-wrap:wrap ;
+    background-color:#B1D7B4;
+    
+}
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:#A9AF7E;
+    width: 280px;
+    height: auto;
+    margin: 20px;
+    border: 0;
+    border-radius: 10px;
+}
+.card-img{
+    height: 150px;
+    margin: 15px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.card-h2{
+    font-weight: bold;
+    padding:10px 20px;
+}
+.card-i-1{
+    padding-left:30px;
+}
+.card-i-2{
+    padding-left:30px;
+}
+.card-i-3{
+    padding-left:70px;
+}
+.card-i-4{
+    padding-left:140px;
+}
+
+.card-h5{
+    padding:0 20px;
+    font-weight: bold;
+    font-size:large;
+}
+.card-h6{
+    padding:0 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+.card-button{
+    background:#B1D7B4;
+    padding: 10px 20px;
+    border: 0;
+    margin-left:150px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: medium;
+}
+.card-button:hover{
+    background-color: black;
+    color:#B1D7B4;
+
+}
 
 
+
+
+
+.img-1{
+    background-image: url('Bahamas-island.jpg');
+
+}
+
+.img-2{
+    background-image: url('mykonos-island.jpg');
+}
+
+.img-3{
+    background-image: url('amsterdam.jpg');
+}
+
+.img-4{
+    background-image: url('Tokyo-1.jpg');
+}
+
+
+
+  
+/* footer  */
+ 
 
 
 
