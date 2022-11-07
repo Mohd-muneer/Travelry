@@ -18,7 +18,7 @@ body{
     background:#647E68;
     width: 100%;
     /* position: fixed; */
-    height: 90px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -194,7 +194,18 @@ select:hover{
 .card-i-4{
     padding-left:140px;
 }
-
+.card-i-5{
+    padding-left:100px;
+}
+.card-i-6{
+    padding-left:70px;
+}
+.card-i-7{
+    padding-left:100px;
+}
+.card-i-8{
+    padding-left:130px;
+}
 .card-h5{
     padding:0 20px;
     font-weight: bold;
@@ -211,7 +222,7 @@ select:hover{
     border: 0;
     margin-left:150px;
     margin-bottom: 30px;
-    border-radius: 12px;
+    border-radius: 15px;
     font-weight: bold;
     font-size: medium;
 }
@@ -241,7 +252,18 @@ select:hover{
 .img-4{
     background-image: url('Tokyo-1.jpg');
 }
-
+.img-5{
+    background-image: url('New\ york.jpg');
+}
+.img-6{
+    background-image: url('kappadocia.jpg');
+}
+.img-7{
+    background-image: url('Green\ Land.jpg');
+}
+.img-8{
+    background-image: url('munich.jpg');
+}
 
 
   
